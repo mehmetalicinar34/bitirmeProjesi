@@ -62,7 +62,7 @@ class Ferrarisf90SpiderScreen extends StatelessWidget {
               child: Column(
                 children: [
                   Text(
-                    'Model: Ferrari SF 90',
+                    'Model: Ferrari SF 90 Spider',
                     style: TextStyle(
                       fontSize: 20,
                       fontWeight: FontWeight.bold,

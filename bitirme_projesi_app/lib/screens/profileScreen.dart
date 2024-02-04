@@ -33,7 +33,7 @@ class ProfileScreenState extends State<ProfileScreen> {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          "Profile Screen",
+          "Profile",
           style: TextStyle(
             color: Colors.grey,
           ),
