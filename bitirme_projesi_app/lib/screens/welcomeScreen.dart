@@ -39,8 +39,6 @@ class WelcomeScreen extends StatelessWidget {
                 ),
               ),
               SizedBox(height: 60),
-              routeButton(context, 'Get Started', '/home'),
-              SizedBox(height: 35),
               routeButton(context, 'Login', '/login'),
               SizedBox(height: 35),
               routeButton(context, 'Register', '/register'),
