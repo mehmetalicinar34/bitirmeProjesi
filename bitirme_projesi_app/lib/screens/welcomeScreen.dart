@@ -38,11 +38,11 @@ class WelcomeScreen extends StatelessWidget {
                   fontWeight: FontWeight.bold,
                 ),
               ),
-              SizedBox(height: 30),
+              SizedBox(height: 60),
               routeButton(context, 'Get Started', '/home'),
-              SizedBox(height: 40),
+              SizedBox(height: 35),
               routeButton(context, 'Login', '/login'),
-              SizedBox(height: 40),
+              SizedBox(height: 35),
               routeButton(context, 'Register', '/register'),
             ],
           ),
@@ -53,7 +53,7 @@ class WelcomeScreen extends StatelessWidget {
 
   Widget routeButton(BuildContext context, String text, String routePath) {
     return Container(
-      height: 50,
+      height: 60,
       width: 275,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(30),
@@ -63,7 +63,6 @@ class WelcomeScreen extends StatelessWidget {
       ),
       child: ElevatedButton(
         onPressed: () {
-          // Navigate to the next screen
           Navigator.pushNamed(context, routePath);
         },
         style: ElevatedButton.styleFrom(

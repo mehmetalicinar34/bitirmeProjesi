@@ -73,7 +73,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
             TextField(
               controller: passwordController,
               obscureText: true,
-              style: TextStyle(color: Colors.grey), // Set text color
+              style: TextStyle(color: Colors.grey),
               decoration: InputDecoration(
                 labelText: 'Password',
                 labelStyle: TextStyle(color: Colors.grey),
@@ -89,7 +89,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
               child: ElevatedButton(
                 onPressed: () async {
                   await registerUser();
-                  Navigator.pop(context); // Navigate back to the previous screen
+                  Navigator.pop(context);
                 },
                 style: ElevatedButton.styleFrom(
                   primary: Color.fromARGB(255, 35, 50, 77),

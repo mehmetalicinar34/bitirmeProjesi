@@ -104,7 +104,6 @@ class FerrarilaferrariScreen extends StatelessWidget {
                       color: Colors.grey,
                     ),
                   ),
-                  // Add more specific information about the Ferrari 812
                 ],
               ),
             ),

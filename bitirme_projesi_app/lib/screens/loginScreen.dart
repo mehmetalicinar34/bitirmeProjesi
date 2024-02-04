@@ -100,7 +100,7 @@ class _LoginScreenState extends State<LoginScreen> {
           backgroundColor: Colors.red,
         ),
       );
-      return false; // Login failed
+      return false;
     }
   }
 }

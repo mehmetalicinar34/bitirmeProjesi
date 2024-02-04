@@ -19,7 +19,7 @@ import 'package:bitirme_projesi_app/screens/brands/ferrari/models/romaScreen.dar
 import 'package:bitirme_projesi_app/screens/brands/ferrari/models/sf90SpiderScreen.dart';
 import 'package:bitirme_projesi_app/screens/brands/honda/models/accordScreen.dart';
 import 'package:bitirme_projesi_app/screens/brands/honda/models/cityScreen.dart';
-import 'package:bitirme_projesi_app/screens/brands/honda/models/civic.dart';
+import 'package:bitirme_projesi_app/screens/brands/honda/models/civicScreen.dart';
 import 'package:bitirme_projesi_app/screens/brands/honda/models/nsxScreen.dart';
 import 'package:bitirme_projesi_app/screens/brands/honda/models/typerScreen.dart';
 import 'package:bitirme_projesi_app/screens/brands/lamborghini/lamborghiniScreen.dart';
@@ -28,11 +28,11 @@ import 'package:bitirme_projesi_app/screens/brands/lamborghini/models/countachSc
 import 'package:bitirme_projesi_app/screens/brands/lamborghini/models/diabloScreen.dart';
 import 'package:bitirme_projesi_app/screens/brands/lamborghini/models/huracanScreen.dart';
 import 'package:bitirme_projesi_app/screens/brands/lamborghini/models/urusScreen.dart';
-import 'package:bitirme_projesi_app/screens/brands/mercedes/models/amgone.dart';
-import 'package:bitirme_projesi_app/screens/brands/mercedes/models/c200.dart';
-import 'package:bitirme_projesi_app/screens/brands/mercedes/models/e200.dart';
-import 'package:bitirme_projesi_app/screens/brands/mercedes/models/s580.dart';
-import 'package:bitirme_projesi_app/screens/brands/mercedes/models/slsamg.dart';
+import 'package:bitirme_projesi_app/screens/brands/mercedes/models/amgoneScreen.dart';
+import 'package:bitirme_projesi_app/screens/brands/mercedes/models/c200Screen.dart';
+import 'package:bitirme_projesi_app/screens/brands/mercedes/models/e200Screen.dart';
+import 'package:bitirme_projesi_app/screens/brands/mercedes/models/s580Screen.dart';
+import 'package:bitirme_projesi_app/screens/brands/mercedes/models/slsamgScreen.dart';
 import 'package:bitirme_projesi_app/screens/contactScreen.dart';
 import 'package:bitirme_projesi_app/screens/homeScreen.dart';
 import 'package:bitirme_projesi_app/screens/loginScreen.dart';
@@ -105,7 +105,7 @@ class MyApp extends StatelessWidget {
       },
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Color.fromARGB(255, 31, 31, 31)),
-        scaffoldBackgroundColor: Colors.transparent, // Set scaffold background to transparent
+        scaffoldBackgroundColor: Colors.transparent,
         iconTheme: IconThemeData(color: Colors.grey),
         useMaterial3: true,
         textTheme: GoogleFonts.dellaRespiraTextTheme(Theme.of(context).textTheme),       
