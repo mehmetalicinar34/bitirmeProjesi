@@ -1,5 +1,5 @@
 ## Mehmet Ali Çinar 221216032 - Bitirme Projesi
-
+## Supervisor: https://github.com/keyvanarasteh
 ## Auto Atlas
 ### Araba modelleri hakkında bilgi sunan bir uygulama.
 
